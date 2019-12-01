@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/*
+Theme Name: Balongi
+Theme URI: 
+Author: Eric Tanguy
+Author URI: 
+Description: Thème Balongi
+Version: 1.0
+*/
+/*Couleur*/
+@import url(lightgallery.css);
+*, body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.wrapper {
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 auto; }
+
+header {
+  color: #fff; }
+
+nav {
+  background-color: #2d333b;
+  color: #fff; }
+
+.wrap-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 0; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .menu > div {
+    margin-right: 25px;
+    text-align: right; }
+  .menu > div:last-of-type {
+    margin-right: 0px;
+    text-align: right; }
+
+.rs img {
+  width: 30px; }
+
+section {
+  text-align: center; }
+  section h2 {
+    text-transform: uppercase;
+    padding: 50px 0 30px;
+    margin: 0 auto; }
+
+.video {
+  padding-top: 30px;
+  overflow: hidden; }
+
+#video-gal {
+  background-image: url("./img/dolphins-in-water-2922672.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative; }
+  #video-gal .icon-player {
+    width: 100px;
+    position: absolute;
+    /* postulat de départ */
+    top: 50%;
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */ }
+
+#video-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #video-gallery a {
+    position: relative; }
+    #video-gallery a .icon-player {
+      width: 50px;
+      position: absolute;
+      /* postulat de départ */
+      top: 50%;
+      left: 50%;
+      /* à 50%/50% du parent référent */
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      /* décalage de 50% de sa propre taille */ }
+    #video-gallery a img {
+      max-width: 610px;
+      width: 100%;
+      height: auto; }
+
+.lg-backdrop.in {
+  opacity: 0.8 !important; }

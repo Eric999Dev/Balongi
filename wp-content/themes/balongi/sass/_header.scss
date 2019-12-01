@@ -1,0 +1,39 @@
+header{
+    color: #fff;
+}
+
+nav{
+     background-color: $grisClair;
+     color:#fff;
+}
+
+.wrap-menu{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    & > div{
+       margin-right: 25px;
+        text-align: right;
+    }
+
+     &> div:last-of-type {
+         margin-right: 0px;
+         text-align: right;
+     }
+}
+
+.rs{
+    img{
+        width: 30px;
+    }
+}
