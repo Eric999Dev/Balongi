@@ -37,7 +37,7 @@
 
     <?php if (is_front_page()) {; ?>
 
-        <header class="header" data-vide-bg="<?php echo get_template_directory_uri(); ?>/video/coverr-milan-view-overhead" style="width:100%;height:100vh;">
+        <header class="header" data-vide-bg="<?php echo get_template_directory_uri(); ?>/video/coverr-milan-view-overhead"">
         <?php } ?>
 
         </header>

@@ -27,6 +27,10 @@ a {
 header {
   color: #fff; }
 
+.header {
+  width: 100%;
+  height: 40vh; }
+
 nav {
   background-color: #2d333b;
   color: #fff; }
@@ -70,6 +74,14 @@ nav {
 
 .rs img {
   width: 30px; }
+
+@media all and (min-width: 768px) {
+  .header {
+    height: 60vh; } }
+
+@media all and (min-width: 992px) {
+  .header {
+    height: 80vh; } }
 
 section {
   text-align: center; }
