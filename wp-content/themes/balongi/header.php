@@ -21,7 +21,7 @@
                     </div>
                 </a>
                 <div class="menu">
-                    <div><a href="">Accueil</a></div>
+                    <div><a href="<?php echo bloginfo('url'); ?>">Accueil</a></div>
                     <div><a href="<?php the_permalink(9); ?>">Studio</a></div>
                     <div><a href="">Contact</a></div>
                     <div><a href="">Production</a></div>

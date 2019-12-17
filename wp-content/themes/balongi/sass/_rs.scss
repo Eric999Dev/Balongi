@@ -1,0 +1,14 @@
+.rs {
+
+    img {
+        width: 30px;
+    }
+
+    & > img{
+        margin-right: 10px;
+    }
+
+    &>img:last-of-type{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    border-top: 1px solid grey;
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &>div:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    &>div {
+        padding: 15px;
+    }
+
+    @media all and (min-width:768px) {
+
+        flex-flow: row-reverse nowrap;
+
+        &>div:first-of-type {
+            margin-bottom: 0px;
+        }
+
+
+    }
+}
